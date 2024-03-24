@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PFB no Parque</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body link="#8BC34A" alink="#8BC34A" vlink="#8BC34A">
+        <img src="imagens/banner.png" alt="baanner a logo do pfb no parque acompanhado de uma paisagem" width="100%" height="350">
+        
+        <center>
+            <font color="#8BC34A" size="4" face="Comic Sans MS">
+                <a href="#">HOME</a>&nbsp;&nbsp;&nbsp;
+                <a href="#pag-beneficios">BENEFÍCIOS</a>&nbsp;&nbsp;&nbsp;
+                <a href="#pag-modalidades">MODALIDADE</a>&nbsp;&nbsp;&nbsp;
+                <a href="#pag-treinos">TREINOS</a>&nbsp;&nbsp;&nbsp;
+                <a href="agendamentos.html">AGENDAMENTOS</a>
+            </font>
+        </center>
+        
+        <hr/>
+        <!-- Comentrário -->
+        <font color="#3F51B5" size="4" face="Comic Sans MS" >
+            <h1 align="center" >Agendamentos</h1>
+        </font>
+                  
+        <font color="#757575" size="4" face="Comic Sans MS" >
+            <p align="justify">Agende uma aula experimental <b>Grátis!</b></p>
+        
+
+        <form name="" method="" action="">
+        	<label for="nome">Nome</label><br/>
+        	<input type="text" name="nome" id="nome" size="80" placeholder="Digite seu nome completo" required autofocus /><br/>
+
+        	<label for="email">E-mail:</label><br/>
+        	<input id="email" type="email" name="email" size="80" placeholder="nomeusuario@gmail.com" /><br/>
+
+        	<label for="senha">Senha:</label><br/>
+        	<input id="senha" type="password" name="senha" size="80" placeholder="somente números" /><br/>
+
+        	<label for="celular">Celular:</label><br/>
+        	<input id="celular" type="tel" name="celular" size="80" placeholder="(99) 99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" /><br/><br/>
+
+        	<label for="data">Data:</label>
+        	<input id="data" type="date" name="" />
+
+        	<label for="hora">Hora:</label>
+        	<input id="hora" type="time" name="hora" />
+
+        	<label for="aulas">Aulas:</label>
+        	<input id="aulas" type="number" name="aulas" min="1" max="10" step="1" /><br/>
+
+        	<label for="nivel">Nível:</label><br/>
+        	<select id="nivel" name="nivel">
+        		<option value="basico">Iniciante</option>
+        		<option value="basico">Básico</option>
+        		<option value="intermediario">Intermediário</option>
+        		<option value="avancado">Avançado</option>
+        	</select><br/>
+
+        	<fieldset>
+        		<legend>Gênero:</legend>
+        		<input id="masc" type="radio" name="genero" value="masc" /><label for="masc">Masculino</label><br/>
+        		<input id="fem" type="radio" name="genero" value="fem" /><label for="fem">Feminino</label>
+        	</fieldset><br/>
+
+        	<fieldset>
+        		<legend>Atividades</legend>
+        		<input id="musc" type="checkbox" name="atividades" /><label for="musc">Musculação</label><br/>
+        		<input id="pila" type="checkbox" name="atividades" /><label for="ila">Pilates</label><br/>
+        		<input id="yoga" type="checkbox" name="atividades" /><label for="yoga">Yoga</label><br/>
+        		<input id="corr" type="checkbox" name="atividades" /><label for="corr">Corrida</label><br/>
+        	</fieldset>
+
+
+
+
+        	<p><input type="submit" name="btn-agendar" value="AGENDAR" />
+        	<input type="reset" name="btn-cancelar" value="CANCELAR" /></p>
+        </form>
+
+        	<hr/>
+            	<p align="center">Desenvolvido por <a href="https://www.instagram.com/lafa_avs" target="_blank">Lafaete Dias</a> - 2024</p>
+        </font>
+    </body>
+</html>
